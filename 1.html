@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendation System</title>
+    <style>
+        .book-card {
+            width: 150px;
+            display: inline-block;
+            margin: 15px;
+            text-align: center;
+        }
+        img {
+            width: 100px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Book Recommendation System</h1>
+
+        <!-- Genre Section -->
+        <div class="genre-section">
+            <h2>Murder Mystery</h2>
+            <div class="recommendations" id="murder-mystery">
+                
+                <!-- Example Book Card with Redirection -->
+                <div class="book-card">
+                    <a href="user_profile1.html?selectedBook=The Silent Patient">
+                        <img src="https://bindassbooks.com/cdn/shop/files/the-silent-patient-original-imafgsy68ph6yggr.jpg?v=1703244590&width=651" alt="The Silent Patient">
+                    </a>
+                    <h3>The Silent Patient</h3>
+                    <p>Author: Alex Michaelides</p>
+                    <p>Rating: 4.5</p>
+                </div>
+
+                <div class="book-card">
+                    <a href="user_profile1.html?selectedBook=Rock Paper Scissors">
+                        <img src="https://m.media-amazon.com/images/I/71Iv7IvHj1L._AC_UF1000,1000_QL80_.jpg" alt="Rock Paper Scissors">
+                    </a>
+                    <h3>Rock Paper Scissors</h3>
+                    <p>Author: Alice Feeney</p>
+                    <p>Rating: 4.3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
