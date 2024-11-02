@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/disha/Downloads/cpp/c-tutorials/l1'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003EE4, symSize: 0x48 }
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003EE4, symSize: 0x48 }
+  - { offset: 0xB3, size: 0x8, addend: 0x0, symName: __ZN4nodeC1EiPS_, symObjAddr: 0x48, symBinAddr: 0x100003F2C, symSize: 0x3C }
+  - { offset: 0xF7, size: 0x8, addend: 0x0, symName: __ZN4nodeC2EiPS_, symObjAddr: 0x84, symBinAddr: 0x100003F68, symSize: 0x2C }
+...
